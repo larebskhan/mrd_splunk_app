@@ -1,0 +1,111 @@
+.star 
+{
+    color: red;
+}
+body
+{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #dbeaf3;
+}
+#boxForm
+{
+    padding-top: 1%;
+    background-color: #0067ab;
+    width: 950px;
+    border-radius: 2px; 
+
+    position: relative;
+    left: 18%
+}
+.container
+{
+    /*border-radius: 10px; 
+    border: 2px solid #dbeaf3;
+    background-color: white; */
+    border-radius: 2px; 
+    background-color: white;
+    width: 900px;
+    position: relative;
+    left: 2.7%;
+}
+h2
+{
+    font-size: 26px; 
+    color:white; 
+    padding: 5px; 
+    text-align: center;
+}
+h4 
+{
+    text-align: center;
+    color:#0068ac; 
+    padding: 5px; 
+}
+hr
+{
+    border-color: #0068ac;
+}
+p
+{
+    text-align:center;
+}
+.control-label
+{
+    width: 30%;
+    font-weight: 700;
+}
+label
+{
+    font-weight: 500;
+}
+form
+{
+    padding-bottom: 3%
+}
+.buttons
+{
+    float: left;
+}
+.flex
+{
+    display: flex;
+   flex-direction: row;
+}
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #0067ac86;
+    position: relative;
+    top: -12px;
+    left: 600px;
+}
+.notRequired
+{
+    font-size: 12px;
+}
+li:nth-child(even) 
+{
+    background:white
+}
+/*input:invalid 
+{
+	border-color: rgb(245, 0, 37);
+}
+select:invalid 
+{
+	border-color: rgb(245, 0, 37);
+}*/
+
+/*input:valid 
+{
+	border-color: rgb(6, 92, 59);
+}
+select:valid 
+{
+	border-color: rgb(6, 92, 59);
+}*/
+

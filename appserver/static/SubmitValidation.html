@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Thank you!</title>
+
+    <!-- Bootstrap CSS Styling-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Include JS and CSS-->
+    <script src="http://localhost:8000/en-US/static/js/i18n.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="confirmationSubmit.js"></script>
+    <!--May not be able to keep here because we need to save this number to the JSON file, which means the number needs to be generated at the requirements -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  
+  
+
+  <body>
+    <div id="boxForm">
+      <div class="container">
+        <h2 style="text-align: center;">Thank you for submitting your form!&nbsp</h2>
+        <h4> Your confirmation number is: <em id="confirNum">XXXXX</em></h4>
+        <p>
+          <em>MRDs are usually processed within 30 days.<br>If you have any questions, please contact <a href = "mailto: itbsa.data@bcbssc.com"> itbsa.data@bcbssc.com</a>.</em>
+          
+        </p>
+
+        <button onclick="window.location.href='index.html'" class="btn">Submit Another Form</button>
+        <br><br>
+    </div>
+  </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body> 
+  </html>
